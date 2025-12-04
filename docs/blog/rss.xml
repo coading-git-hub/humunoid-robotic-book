@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Physical AI &amp; Humanoid Robotics Blog</title>
+        <link>https://coading-git-hub.github.io/humunoid-robotic-book/blog</link>
+        <description>Physical AI &amp; Humanoid Robotics Blog</description>
+        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Course Overview: Your Learning Path to Humanoid Robotics Mastery]]></title>
+            <link>https://coading-git-hub.github.io/humunoid-robotic-book/blog/course-overview-and-learning-path</link>
+            <guid>course-overview-and-learning-path</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to your journey into Physical AI & Humanoid Robotics! This blog post serves as your comprehensive guide to navigating the 13-week course structure and maximizing your learning experience.]]></description>
+        </item>
+    </channel>
+</rss>

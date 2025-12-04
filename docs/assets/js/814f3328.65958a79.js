@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkhumanoid_robotics=globalThis.webpackChunkhumanoid_robotics||[]).push([[472],{5513:o=>{o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Course Overview: Your Learning Path to Humanoid Robotics Mastery","permalink":"/humunoid-robotic-book/blog/course-overview-and-learning-path"}]}')}}]);

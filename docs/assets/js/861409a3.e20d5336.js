@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkhumanoid_robotics=globalThis.webpackChunkhumanoid_robotics||[]).push([[595],{8937:o=>{o.exports=JSON.parse('{"allTagsPath":"/humunoid-robotic-book/blog/tags","slug":"/humunoid-robotic-book/blog/tags/robotics","name":"robotics","count":1,"permalink":"/humunoid-robotic-book/blog/tags/robotics"}')}}]);
