@@ -1,0 +1,30 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background-color: var(--ifm-color-emphasis-50);
+}
+
+.featureIcon {
+  margin-bottom: 1rem;
+}
+
+.iconPlaceholder {
+  font-size: 3rem;
+  display: inline-block;
+}
+
+.features .col {
+  margin-bottom: 2rem;
+}
+
+.features h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.features p {
+  color: var(--ifm-color-emphasis-700);
+}

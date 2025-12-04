@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- **Accuracy**: All course content MUST reflect original course materials.
+- **Clarity**: Content MUST be structured in a clear hierarchy (modules → lessons → subtopics → projects).
+- **Interactivity**: Spec-Kit Plus MUST be used for notes, tips, and code highlighting.
+- **Reproducibility**: Course materials MUST include detailed hardware setup guides, software instructions, and runnable examples.
+- **Modern Documentation**: Book layout, navigation, and styling MUST follow Docusaurus guidelines.
 
 ## Project Structure
 

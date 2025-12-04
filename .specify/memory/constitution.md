@@ -1,55 +1,77 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report (Generated 2025-12-04) -->
+<!--
+Version change: None → 1.0.0
+Modified principles:
+  - Accuracy
+  - Clarity
+  - Interactivity
+  - Reproducibility
+  - Modern Documentation
+Added sections:
+  - Key Deliverables and Content Structure
+  - Technical Constraints and Workflow
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ✅ updated
+  - .specify/templates/spec-template.md: ✅ updated
+  - .specify/templates/tasks-template.md: ✅ updated
+  - .specify/templates/commands/*.md: ✅ updated
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics Book Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Accuracy
+All course content MUST reflect original course materials without alteration or misrepresentation.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Clarity
+Content MUST be structured in a clear hierarchy: modules → lessons → subtopics → projects.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Interactivity
+Spec-Kit Plus MUST be used for notes, tips, and code highlighting to enhance interactivity.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Reproducibility
+Course materials MUST include detailed hardware setup guides, software instructions, and runnable examples to ensure reproducibility.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Modern Documentation
+The book layout, navigation, and styling MUST follow Docusaurus guidelines, referencing https://docusaurus.io/docs for implementation.
 
-### [PRINCIPLE_6_NAME]
+### Additional Principles
+Future principles will be added as needed.
 
+## Key Deliverables and Content Structure
 
-[PRINCIPLE__DESCRIPTION]
+### Key Deliverables
+- Full markdown book ready for Docusaurus deployment.
+- Sidebar navigation structure for all modules and lessons.
+- Annotated code and hardware tables utilizing Spec-Kit Plus features.
+- Comprehensive deployment instructions for GitHub Pages.
+- Optional diagrams and images stored within the `/static/images` directory.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Module Structure
+The book will be organized into the following modules, reflecting the course curriculum:
+- Module 1: The Robotic Nervous System (ROS 2)
+- Module 2: The Digital Twin (Gazebo & Unity)
+- Module 3: The AI-Robot Brain (NVIDIA Isaac)
+- Module 4: Vision-Language-Action (VLA)
+- Module 5: Capstone Project
+- Module 6: Hardware & Lab Setup
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Technical Constraints and Workflow
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### Content Structure Constraints
+- Each module MUST include lessons, code snippets, notes, and practical projects.
+- All output MUST adhere to a Docusaurus-compatible Markdown structure:
+  - Markdown content files located in `/docs`.
+  - Static images and diagrams located in `/static/images`.
+  - Sidebar navigation configuration in `/sidebars.js`.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Automated Workflow
+- Claude is responsible for automatically generating planning, tasks, and implementation artifacts.
+- Claude MUST automatically create modules as top-level Docusaurus categories, lessons as Markdown files, and subtopics within lessons.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This constitution supersedes all other practices and documentation. Amendments require documentation, approval, and a clear migration plan. Adherence to these principles is mandatory for all development efforts.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
