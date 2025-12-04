@@ -27,9 +27,14 @@
 }
 
 .robotImage {
-  max-width: 400px;
+  max-width: 450px;
+  max-height: 600px;
+  width: 100%;
   height: auto;
-  opacity: 0.8;
+  opacity: 1;
+  filter: drop-shadow(0 10px 30px rgba(37, 194, 160, 0.4));
+  border-radius: 8px;
+  object-fit: contain;
 }
 
 .buttons {
@@ -50,5 +55,10 @@
 
   .buttons {
     justify-content: center;
+  }
+
+  .robotImage {
+    max-width: 350px;
+    max-height: 450px;
   }
 }

@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'A comprehensive 13-week course on humanoid robotics',
-  url: 'https://your-docusaurus-site.com',
-  baseUrl: '/',
+  url: 'https://coading-git-hub.github.io',
+  baseUrl: '/humunoid-robotic-book/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'your-org', // Usually your GitHub org/user name.
-  projectName: 'humanoid-robotics', // Usually your repo name.
+  organizationName: 'coading-git-hub', // Usually your GitHub org/user name.
+  projectName: 'humunoid-robotic-book', // Usually your repo name.
 
   presets: [
     [
@@ -22,13 +22,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/coading-git-hub/humunoid-robotic-book/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/coading-git-hub/humunoid-robotic-book/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -41,9 +41,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Humanoid Robotics Course',
+        title: 'AI & Robotics',
         logo: {
-          alt: 'Humanoid Robotics Logo',
+          alt: 'AI & Robotics Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -55,7 +55,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/your-org/humanoid-robotics',
+            href: 'https://github.com/coading-git-hub/humunoid-robotic-book',
             label: 'GitHub',
             position: 'right',
           },
@@ -99,7 +99,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/coading-git-hub/humunoid-robotic-book',
               },
             ],
           },

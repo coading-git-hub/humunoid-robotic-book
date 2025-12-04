@@ -3,11 +3,14 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  // Using cover-image.png from static/img folder
+  const heroImageUrl = useBaseUrl('/img/cover-image.png');
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -29,7 +32,7 @@ function HomepageHeader() {
             </div>
           </div>
           <div className={styles.heroImage}>
-            <img src="/img/robot-hero.svg" alt="Humanoid Robot" className={styles.robotImage} />
+            <img src={heroImageUrl} alt="Physical AI & Humanoid Robotics" className={styles.robotImage} />
           </div>
         </div>
       </div>
