@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'A comprehensive 13-week course on humanoid robotics',
-  url: 'https://coading-git-hub.github.io',
-  baseUrl: '/humunoid-robotic-book/',
+  url: 'https://humunoid-robotic-book.vercel.app',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
