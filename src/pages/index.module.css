@@ -14,25 +14,26 @@
   gap: 2rem;
 }
 
-.heroText {
-  flex: 1;
-  text-align: left;
-}
-
 .heroImage {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  order: -1;
+}
+
+.heroText {
+  flex: 1;
+  text-align: left;
 }
 
 .robotImage {
-  max-width: 450px;
-  max-height: 600px;
+  max-width: 350px;
+  max-height: 950px;
   width: 100%;
   height: auto;
   opacity: 1;
-  filter: drop-shadow(0 10px 30px rgba(37, 194, 160, 0.4));
+  filter: drop-shadow(0 10px 30px rgba(37, 40, 194, 0.4));
   border-radius: 8px;
   object-fit: contain;
 }
@@ -60,5 +61,49 @@
   .robotImage {
     max-width: 350px;
     max-height: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
+
+  .heroContent {
+    gap: 1rem;
+  }
+
+  .robotImage {
+    max-width: 200px;
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heroBanner {
+    padding: 1rem 0;
+  }
+
+  .heroContent {
+    gap: 0.5rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .robotImage {
+    max-width: 150px;
+    max-height: 200px;
+  }
+
+  .hero__title {
+    font-size: 1.5rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
   }
 }
