@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #3968af;
+  --ifm-color-primary-dark: #072972;
+  --ifm-color-primary-darker: #051235;
+  --ifm-color-primary-darkest: #244166;
+  --ifm-color-primary-light: #5271d5;
+  --ifm-color-primary-lighter: #6361db;
+  --ifm-color-primary-lightest: #8291e6;
   --ifm-code-font-size: 95%;
 }
 
@@ -25,4 +25,52 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar hover effects */
+.navbar__brand:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary);
+  transition: color 0.3s ease;
+}
+
+.navbar__link {
+  transition: color 0.3s ease;
+}
+
+/* Sidebar numbering for top-level chapters */
+.menu__list {
+  counter-reset: chapter;
+}
+
+.menu__list > .menu__list-item > .menu__link::before {
+  counter-increment: chapter;
+  content: counter(chapter) ". ";
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+  font-size: 0.9em;
+  margin-right: 4px;
+}
+
+/* Sidebar bullet points for sub-headings */
+.menu__list .menu__list .menu__list-item > .menu__link::before {
+  content: "• ";
+  font-size: 0.8em;
+  color: var(--ifm-color-primary);
+  margin-right: 4px;
+}
+
+
+/* Sidebar hover left border */
+.menu__list-item:hover {
+  border-left: 3px solid var(--ifm-color-primary);
+  transition: border-left 0.3s ease;
+}
+
+.menu__list-item {
+  transition: border-left 0.3s ease;
 }

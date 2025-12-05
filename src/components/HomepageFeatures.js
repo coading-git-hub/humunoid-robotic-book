@@ -5,6 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'ROS 2 Fundamentals',
+    icon: '🔧',
     description: (
       <>
         Master the Robot Operating System 2 with hands-on tutorials covering
@@ -14,6 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Digital Twin Technology',
+    icon: '🏗️',
     description: (
       <>
         Learn simulation techniques using Gazebo and Unity to create virtual
@@ -23,6 +25,7 @@ const FeatureList = [
   },
   {
     title: 'NVIDIA Isaac & AI',
+    icon: '🧠',
     description: (
       <>
         Explore advanced AI-powered perception, manipulation, and reinforcement
@@ -32,6 +35,7 @@ const FeatureList = [
   },
   {
     title: 'Humanoid Robotics',
+    icon: '🤖',
     description: (
       <>
         Dive deep into bipedal locomotion, manipulation, and human-robot interaction
@@ -41,6 +45,7 @@ const FeatureList = [
   },
   {
     title: 'Hardware Integration',
+    icon: '⚙️',
     description: (
       <>
         Get comprehensive setup guides for Digital Twin workstations, Physical AI Edge Kits,
@@ -50,6 +55,7 @@ const FeatureList = [
   },
   {
     title: 'Capstone Project',
+    icon: '🏆',
     description: (
       <>
         Apply your knowledge in a culminating project: a simulated humanoid robot
@@ -59,12 +65,12 @@ const FeatureList = [
   },
 ];
 
-function Feature({title, description}) {
+function Feature({title, icon, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <div className={styles.featureIcon}>
-          <span className={styles.iconPlaceholder}>🤖</span>
+          <span className={styles.iconPlaceholder}>{icon}</span>
         </div>
       </div>
       <div className="text--center padding-horiz--md">
